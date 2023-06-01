@@ -1,4 +1,6 @@
 
+    //////  !!!!!!  "Horizontal bar chart with a dropdown menu to display the top 10 OTUs"  !!!!!! //////
+  
   d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json").then((data) => {
     let samples = data.samples;
     let sampleNames = data.names;
@@ -36,7 +38,7 @@
   });
 
 
-
+                 ///////// !!!!!!  "Bubble chart that displays each sample" !!!!!! //////////
 
 
   d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json").then((data) => {
@@ -78,7 +80,7 @@
 
 
  
-
+//// !!!!!!  "Display the sample metadata and each key-value pair from the metadata JSON object"  !!!!!! ////
 
 
 
@@ -155,7 +157,7 @@ d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1
 });
 
 
-
+                      //// !!! "Weekly washing frequency of the individual"  !!! ////
 
 
 
